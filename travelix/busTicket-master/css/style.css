@@ -1,0 +1,1435 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+img{
+    border: 0px;
+}
+h1,h2,h3,h4,h5,h6,ol,ul,p,address{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+@font-face{
+    font-family:karla_regular;
+    src:url(../fonts/karla/Karla-Regular.ttf);
+} 
+@font-face{
+    font-family:raleway_regular;
+    src:url(../fonts/raleway/Raleway-Regular.ttf);
+}
+@font-face{
+    font-family:raleway_extra_bold;
+    src:url(../fonts/raleway/Raleway-ExtraBold.ttf);
+}
+@font-face{
+    font-family:opensans_regular;
+    src:url(../fonts/open_sans/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family:lora_italic;
+    src:url(../fonts/lora/Lora-Italic.ttf);
+}
+@font-face{
+    font-family:candara_bold;
+    src:url(../fonts/candara/Candara_Bold.ttf);
+}
+@font-face{
+    font-family:robotoslab_regular;
+    src:url(../fonts/robotoslab/RobotoSlab_Regular.ttf);
+}
+
+.float{
+    float: left;
+}
+.bg{
+    background: #753d9d;
+}
+/*-------------main css start now-----------------*/
+.top_backround{
+     background: #e5eef0;
+}
+.top_color{
+    font-family: karla_regular;
+    text-transform: uppercase;
+    background: #e5eef0;
+    line-height: 50px;
+    color: #93a1a7;
+    font-size: 13px;
+}
+header .top .number ul{
+    float: right;
+}
+header .top .number ul li{
+    float: left;
+}
+header .top .number ul li a{
+    text-decoration: none;
+}
+header .top .number ul li a i{
+    padding-right: 8px;
+    color: #93a1a7;
+    line-height: 50px;
+}
+header .top .number ul li a .fa-envelope{
+    margin-left: 57px;
+}
+header .top .number ul li a span{
+    color: #93a1a7;
+    font-size: 14px;
+}
+header .logo{
+    padding: 21px 0px;
+}
+header nav ul{
+    float: right;
+}
+header nav ul li{
+    float: left;
+}
+.navbar-collapse.collapse{
+    background: #fff;
+}
+header nav ul li a{
+    line-height: 75px;
+    padding: 0px 22px;
+    font-size: 14px;
+    color: #93a1a7;
+    text-transform: uppercase;
+    font-family: karla_regular;
+    border-radius: 35px;
+    text-decoration: none;
+}
+header nav ul li a:hover{
+    color: #f69b37;
+}
+header .container .row .contact_button a{
+    line-height: 75px;
+    background: #29c2e1;
+    border-radius: 35px;
+    color: #fff;
+    padding: 13px 27px;
+    margin-left: 32px;
+    text-transform: uppercase;
+    font-family: karla_regular;
+    font-size: 14px;
+    text-decoration: none;
+}
+header .container .row .contact_button a:hover{
+    background: #f69b37;
+}
+/*End menu part*/
+#banner{
+    position: relative;
+}
+#banner .banner_content{
+    position: absolute;
+}
+#banner .banner_content h1{
+    text-align: center;
+    margin-top: -285px;
+    font-size: 48px;
+    color: #00c1df;
+    text-transform: uppercase;
+    font-family: raleway_extra_bold;
+}
+#banner .banner_content p{
+    text-align: center;
+    font-size: 14px;
+    color: #000;
+    text-transform: uppercase;
+    font-family: raleway_regular;
+}
+
+#banner img{
+    opacity: 0.7;
+}
+/*End banner part*/
+#startup .content h2{
+    font-size: 30px;
+    font-family: raleway_extra_bold;
+    color: #23282f;
+    text-transform: uppercase;
+    padding-top: 82px;
+}
+#startup .content h6{
+    font-size: 18px;
+    font-family: raleway_regular;
+    color: #23282f;
+    text-transform: uppercase;
+    padding-top: 0px;
+}
+#startup .content p{
+    padding-top: 40px;
+    font-family:opensans_regular;
+    color: #55595f;
+    padding-bottom: 52px;
+}
+#startup .boost img{
+    padding-top: 82px;
+    position: relative;
+    padding-bottom: 
+}
+#startup .boost h3{
+    position: relative;
+    font-size: 20px;
+    font-family:opensans_regular;
+    margin-top: -71px;
+    margin-left: 97px;
+    padding-bottom: 13px;
+    color: #23282f;
+}
+#startup .boost p{
+    margin-left: 97px;
+    font-size: 14px;
+    color: #55595f;
+    font-family: opensans_regular;
+    padding-bottom: 40px;
+}
+#startup .boost1 img{
+    padding-top: 0px;
+    position: relative;
+    padding-bottom: 
+}
+#startup .boost1 h3{
+    position: relative;
+    font-size: 20px;
+    font-family: opensans_regular;
+    margin-top: -71px;
+    margin-left: 97px;
+    padding-bottom: 13px;
+    color: #23282f;
+}
+#startup .boost1 p{
+    margin-left: 97px;
+    font-size: 14px;
+    color: #55595f;
+    font-family: opensans_regular;
+    padding-bottom: 40px;
+}
+#startup .boost2 img{
+    padding-top: 0px;
+    position: relative;
+    padding-bottom: 
+}
+#startup .boost2 h3{
+    position: relative;
+    font-size: 20px;
+    font-family: opensans_regular;
+    margin-top: -71px;
+    margin-left: 97px;
+    padding-bottom: 13px;
+    color: #23282f;
+}
+#startup .boost2 p{
+    margin-left: 97px;
+    font-size: 14px;
+    color: #55595f;
+    font-family:opensans_regular;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+#startup .more{
+    background: #29c2e1;
+    font-size: 15px;
+    font-family: karla_regular;
+    color: #fff;
+    padding: 13px 26px;
+    text-decoration: none;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+#startup .more:hover{
+    background: #f7941d;
+    transition: all linear .4s;
+}
+/*End boost part*/
+#client{
+    background: #e5eef0;
+}
+#client .client_text h2{
+    font-size: 30px;
+    color: #23282f;
+    font-family:raleway_extra_bold;
+    padding-top: 100px;
+    text-transform: uppercase;
+}
+#client .client_text h6{
+    font-size: 18px;
+    font-family: karla_regular;
+    padding-bottom: 57px;
+    text-transform: uppercase;
+}
+#client .client_text img{
+    position: relative;
+}
+#client .client_text p{
+    position: absolute;
+    font-family:lora_italic;
+    font-size: 15px;
+    margin-top: -50px;
+    margin-left: 98px;
+    color: #55595f;
+}
+#client .client_text h4{
+    padding-top: 75px;
+    padding-left: 98px;
+    font-size: 14px;
+    color: #55595f;
+}
+#client .client_text h5{
+    padding-left: 98px;
+    font-size: 14px;
+    color: #f5a24c;
+    text-transform: uppercase;
+    padding-bottom: 111px;
+}
+#client  .all_client img{
+    padding-top: 198px;
+}
+/*End client part*/
+#feature{
+    margin-bottom: 100px;
+}
+
+#feature h2{
+    padding-top: 100px;
+    color: #23282f;
+    font-size: 30px;
+    font-family:raleway_extra_bold;
+    text-transform: uppercase;
+}
+#feature h6{
+    color: #23282f;
+    font-size: 18px;
+    padding-bottom: 63px;
+    font-family: karla_regular;
+}
+#feature .feature_list ul li img{
+    position: relative;
+}
+#feature .feature_list ul li h5{
+    font-size: 20px;
+    color: #23282f;
+    font-family: raleway_regular;
+    position: absolute;
+    padding-bottom: 14px;
+    margin-top: -70px;
+    margin-left: 100px;
+}
+#feature .feature_list ul li p{
+    position: absolute;
+    color: #23282f;
+    font-size: 14px;
+    font-family:opensans_regular;
+    margin-top: -30px;
+    margin-left: 100px;
+}
+#feature .feature_list2 img{
+    padding-top: 89px;
+}
+#feature .feature_list2 h5{
+    font-size: 20px;
+    color: #23282f;
+    font-family: raleway_regular;
+    position: absolute;
+    padding-bottom: 14px;
+    margin-top: -70px;
+    margin-left: 100px;
+}
+#feature .feature_list2 ul li p{
+    position: absolute;
+    color: #23282f;
+    font-size: 14px;
+    font-family:opensans_regular;
+    margin-top: -30px;
+    margin-left: 100px;
+    padding-bottom: 62px;
+}
+#feature .feature_button{
+    margin-top: 100px;
+    border-bottom: 1px solid  #e5eef0;
+}
+#feature .feature_button a{
+    padding: 14px 21px 15px;
+    background: #0cb9e7;
+    border-radius: 35px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: karla_regular;
+}
+#feature .feature_button a:hover{
+    background: #f7941d;
+    transition: all linear .4s;
+}
+#feature .style{
+    margin-left: 930px;
+}
+/*End feature part*/
+
+#table{
+    margin-left: 200px;
+}
+
+.route{
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+
+footer{
+    height: 316px;
+    margin-top: 10px;
+}
+footer a img{
+    padding-top: 76px;
+}
+footer p{
+    padding-top: 76px;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-family:raleway_regular;
+}
+footer ul li{
+    padding-bottom: 25px;
+}
+footer ul li a{
+    color: #93a1a7;
+    font-family:karla_regular;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+footer ul li a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+footer .middle_menu{
+    padding-top: 115px;
+}
+footer .middle_menu li a{
+    color: #93a1a7;
+    font-family:karla_regular;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+footer .middle_menu li a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+footer i{
+    padding-right: 20px;
+    color: #adbdc1;
+}
+footer i:hover{
+    color: #0b86a1;
+    transition: all linear .4s;
+}
+footer .address h6{
+    color: #3e4146;
+    font-size: 14px;
+    font-family: karla_regular;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+}
+footer .address span{
+    position: absolute;
+    color: #93a1a7;
+    font-family: karla_regular;
+    margin-top: -58px;
+    margin-left: 70px;
+    text-transform: uppercase;
+}
+footer .eml{
+    width: 60%;
+    height: 30px;
+    padding: 0px 20px;
+}
+footer .go{
+    background: #29c2e1;
+    padding: 8px 10px 8px 10px;
+    color: #fff;
+    margin-left: -20px;
+}
+footer .border{
+    height: 1px;
+    background: #e5eef0;
+    width: 1075px;
+    position: absolute;
+    margin-top: 312px;
+}
+.orng{
+    display: inline-block;
+    margin-top: -197px;
+    left: 0px;
+    height: 200px;
+}
+.blu{
+    display: inline-block;
+    margin-top: -117px;
+    margin-left: 1060px;
+    height: 200px;
+}
+/*End footer part*/
+.copyright{
+    color: #93a1a7;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.copyright p{
+    padding: 23px 0px 0px;
+}
+/*End copyright part*/
+
+/*End Home page css part*/
+#about_banner{
+    background: url(../images/about_us_banner.jpg);
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+#about_banner h1{
+    font-size: 48px;
+    font-family:raleway_extra_bold;
+    text-transform: uppercase;
+    padding: 122px 0px 0px;
+}
+#about_banner h4{
+    font-size: 14px;
+    font-family:raleway_regular;
+    text-transform: uppercase;
+    padding-bottom: 122px;
+}  
+/*End  about_banner part*/
+#what .what_we h2{
+    font-family:raleway_extra_bold;
+    font-size: 30px;
+    padding-top: 100px;
+    color: #23282f;
+    text-transform: uppercase;
+}
+#what .what_we p{
+    font-size: 18px;
+    padding-bottom: 46px;
+    color: #23282f;
+    text-transform: uppercase;
+}
+#what .what_we h5{
+    color: #55595f;
+    font-size: 14px;
+    padding-bottom: 70px;
+    font-family:opensans_regular;
+}
+#what .what_we_next h3{
+    color: #55595f;
+    font-size: 14px;
+    font-family:opensans_regular;
+    padding: 205px 0px 70px;
+}
+#what .about_border{
+    width: 1140px;
+    height: 1px;
+    background: #dee8ea;
+}
+/*End  what part*/
+#about_icon .ab_icon img{
+    padding-top: 60px;
+    position: relative;
+}
+#about_icon .ab_icon span{
+    font-size: 60px;
+    position: absolute;
+    margin-top: 45px;
+    font-family: karla_regular;
+    color: #23282f;
+}
+#about_icon .ab_icon p{
+    font-family: karla_regular;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 70px;
+    margin-top: -10px;
+    padding-bottom: 81px;
+    color: #23282f;
+}
+/*End about_icon part*/
+#about_features h2{
+    font-size: 30px;
+    font-family: raleway_extra_bold;
+    color: #23282f;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+#about_features p{
+    font-family: karla_regular;
+    font-size: 18px;
+    color: #23282f;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+}
+#about_features .feature_details img{
+    position: relative;
+}
+#about_features .feature_details span{
+    position: absolute;
+    font-size: 20px;
+    font-family: raleway_regular;
+    font-weight: 400;
+    margin-left: 30px;
+}
+#about_features .feature_details p{
+    font-size: 14px;
+    font-family: opensans_regular;
+    text-transform: lowercase;
+    margin-left: 100px;
+    margin-top: -20px;
+}
+#about_features a{
+    background: #29c2e1;
+    padding: 14px 21px 15px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-family: karla_regular;
+    font-size: 15px;
+    color: #fff;
+}
+#about_features a:hover{
+    background: #f69b37;
+    transition: all linear .4s;
+}
+/*End  about_features part*/
+
+#news_banner{
+    background: url(../images/news_banner.jpg);
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+#news_banner h1{
+    font-size: 48px;
+    font-family:raleway_extra_bold;
+    text-transform: uppercase;
+    padding: 122px 0px 0px;
+}
+#news_banner h4{
+    font-size: 14px;
+    font-family:raleway_regular;
+    text-transform: uppercase;
+    padding-bottom: 122px;
+} 
+/*End  news_banner part*/
+#news h2{
+    font-family:raleway_extra_bold;
+    font-size: 30px;
+    color: #23282f;
+    text-transform: uppercase;
+    padding-top: 112px;
+}
+#news p{
+    font-family: karla_regular;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #23282f;
+    padding-bottom: 34px;
+}
+#news .news2{
+   background: url(../images/news_background_down.png);
+}
+#news .news2{
+    height: 378px;
+     height: 378px;
+    width: 360px;
+}
+#news .news2 h3{
+    padding-top: 53px;
+    font-size: 48px;
+    font-family:raleway_regular;
+    color: #23282f;
+}
+#news .news2 p{
+    font-family:raleway_regular;
+    font-size: 16px;
+    color: #23282f;
+    padding-bottom: 36px;
+}
+#news .news2 h4{
+    font-family:raleway_regular;
+    font-size: 20px;
+    color: #23282f;
+    padding-bottom: 26px;
+}
+#news .news2 h6{
+    font-size: 14px;
+    font-family: opensans_regular;
+    color: #55595f;
+    padding-bottom: 37px;
+}
+#news .news2 a{
+    font-size: 15px;
+    font-family: karla_regular;
+    text-transform: uppercase;
+    padding: 14px 28px 15px;
+    background: #29c2e1;
+    border-radius: 30px;
+    color: #fff;
+    
+}
+#news .news2 a:hover{
+    background: #f69b37;
+    transition: all linear .4s;
+}
+#news .news3 {
+    height: 378px;
+    margin-left: 15px;
+    width: 360px;
+}
+#news .news3{
+   background: url(../images/news_background_down.png);
+}
+#news .news3{
+    height: 378px;
+}
+#news .news3 h3{
+    padding-top: 53px;
+    font-size: 48px;
+    font-family:raleway_regular;
+    color: #23282f;
+}
+#news .news3 p{
+    font-family:raleway_regular;
+    font-size: 16px;
+    color: #23282f;
+    padding-bottom: 36px;
+}
+#news .news3 h4{
+    font-family:raleway_regular;
+    font-size: 20px;
+    color: #23282f;
+    padding-bottom: 26px;
+}
+#news .news3 h6{
+    font-size: 14px;
+    font-family: opensans_regular;
+    color: #55595f;
+    padding-bottom: 37px;
+}
+#news .news3 a{
+    font-size: 15px;
+    font-family: karla_regular;
+    text-transform: uppercase;
+    padding: 14px 28px 15px;
+    background: #29c2e1;
+    border-radius: 30px;
+    color: #fff;
+    
+}
+#news .news3 a:hover{
+    background: #f69b37;
+    transition: all linear .4s;
+}
+#news .news4 {
+    height: 378px;
+    width: 360px;
+}
+#news .news4{
+   background: url(../images/news_background_down.png);
+}
+#news .news4{
+    height: 378px;
+    width: 360px;
+}
+#news .news4 h3{
+    padding-top: 53px;
+    font-size: 48px;
+    font-family:raleway_regular;
+    color: #23282f;
+}
+#news .news4 p{
+    font-family:raleway_regular;
+    font-size: 16px;
+    color: #23282f;
+    padding-bottom: 36px;
+}
+#news .news4 h4{
+    font-family:raleway_regular;
+    font-size: 20px;
+    color: #23282f;
+    padding-bottom: 26px;
+}
+#news .news4 h6{
+    font-size: 14px;
+    font-family: opensans_regular;
+    color: #55595f;
+    padding-bottom: 37px;
+}
+#news .news4 a{
+    font-size: 15px;
+    font-family: karla_regular;
+    text-transform: uppercase;
+    padding: 14px 28px 15px;
+    background: #29c2e1;
+    border-radius: 30px;
+    color: #fff;
+}
+#news .news4 a:hover{
+    background: #f69b37;
+    transition: all linear .4s;
+}
+.news5{
+   background: url(../images/news_background_down.png);
+}
+.news5{
+    height: 378px;
+    width: 360px;
+    margin-left: 15px;
+}
+.news5 h3{
+    padding-top: 53px;
+    font-size: 48px;
+    font-family:raleway_regular;
+    color: #23282f;
+}
+.news5 p{
+    font-family:raleway_regular;
+    font-size: 16px;
+    color: #23282f;
+    padding-bottom: 36px;
+}
+.news5 h4{
+    font-family:raleway_regular;
+    font-size: 20px;
+    color: #23282f;
+    padding-bottom: 26px;
+}
+.news5 h6{
+    font-size: 14px;
+    font-family: opensans_regular;
+    color: #55595f;
+    padding-bottom: 37px;
+}
+.news5 a{
+    font-size: 15px;
+    font-family: karla_regular;
+    text-transform: uppercase;
+    padding: 14px 28px 15px;
+    background: #29c2e1;
+    border-radius: 30px;
+    color: #fff;
+    
+}
+.news5 a:hover{
+    background: #f69b37;
+    transition: all linear .4s;
+}
+.news6{
+   background: url(../images/news_background_down.png);
+}
+.news6{
+    height: 378px;
+    width: 360px;
+}
+.news6 h3{
+    padding-top: 53px;
+    font-size: 48px;
+    font-family:raleway_regular;
+    color: #23282f;
+}
+.news6 p{
+    font-family:raleway_regular;
+    font-size: 16px;
+    color: #23282f;
+    padding-bottom: 36px;
+}
+.news6 h4{
+    font-family:raleway_regular;
+    font-size: 20px;
+    color: #23282f;
+    padding-bottom: 26px;
+}
+.news6 h6{
+    font-size: 14px;
+    font-family: opensans_regular;
+    color: #55595f;
+    padding-bottom: 37px;
+}
+.news6 a{
+    font-size: 15px;
+    font-family: karla_regular;
+    text-transform: uppercase;
+    padding: 14px 28px 15px;
+    background: #29c2e1;
+    border-radius: 30px;
+    color: #fff;
+    
+}
+.news6 a:hover{
+    background: #f69b37;
+    transition: all linear .4s;
+}
+/*End  news part*/
+
+/*Start portfolio part*/
+#portfolio_banner{
+    background: url(../images/portfolio_banner.jpg);
+    text-align: center;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+}
+#portfolio_banner h1{
+    font-size: 48px;
+    font-family:raleway_extra_bold;
+    text-transform: uppercase;
+    padding: 122px 0px 0px;
+}
+#portfolio_banner h4{
+    font-size: 14px;
+    font-family:raleway_regular;
+    text-transform: uppercase;
+    padding-bottom: 122px;
+} 
+/*End portfolio_banner part*/
+#recent h2{
+    font-family: candara_bold;
+    color: #23282f;
+    font-size: 40px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+/*End  recent part*/
+
+/*Start services part*/
+#service_banner{
+    background: url(../images/service_banner.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    background-position: center;
+}
+#service_banner h1{
+    font-size: 48px;
+    font-family:raleway_extra_bold;
+    text-transform: uppercase;
+    padding: 122px 0px 0px;
+}
+#service_banner h4{
+    font-size: 14px;
+    font-family:raleway_regular;
+    text-transform: uppercase;
+    padding-bottom: 122px;
+} 
+/*End service_banner part*/
+#service_text h2{
+    font-size: 30px;
+    color: #23282f;
+    font-family: raleway_extra_bold;
+    text-transform: uppercase;
+    padding-top: 100px;
+}
+#service_text p{
+    font-size: 18px;
+    color: #23282f;
+    text-transform: uppercase;
+    font-family: karla_regular;
+    padding-bottom: 63px;
+}
+#service_text .work{
+    height: 270px;
+    border-bottom: 1px solid #dee8ea;
+}
+#service_text .work h3{
+    font-size: 20px;
+    color: #23282f;
+    font-family:robotoslab_regular;
+    position: relative;
+    padding-bottom: 26px;
+}
+#service_text .work h3:before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 21px;
+    background: #f7941d;
+    margin-left: -6px;
+}
+#service_text .work h6{
+    font-size: 14px;
+    font-family: karla_regular;
+    color: #55595f;
+    padding-bottom: 46px;
+}
+#service_text .work a{
+    font-size: 15px;
+    font-family: karla_regular;
+    color: #fff;
+    background: #f7941d;
+    padding: 14px 25px 15px;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+#service_text .work a:hover{
+    background: #29c2e1;
+    transition: all linear .4s;
+}
+#service_text .work1 img{
+    padding-top: 60px;
+}
+#service_text .work2{
+    height: 308px;
+    border-bottom: 1px solid #dee8ea;
+}
+#service_text .work2 h3{
+    font-size: 20px;
+    color: #23282f;
+    font-family:robotoslab_regular;
+    position: relative;
+    padding-bottom: 26px;
+    padding-top: 60px;
+    padding-left: 16px;
+}
+#service_text .work2 h3:before{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 21px;
+    background: #29c2e1;
+    margin-left: -16px;
+}
+#service_text .work2 h6{
+    font-size: 14px;
+    font-family: karla_regular;
+    color: #55595f;
+    padding-bottom: 46px;
+}
+#service_text .work2 .work_button{
+    font-size: 15px;
+    font-family: karla_regular;
+    color: #fff;
+    background: #29c2e1;
+    padding: 14px 25px 15px;
+    border-radius: 35px;
+    text-transform: uppercase;
+}
+#service_text .work2 a:hover{
+    background: #f7941d;
+    transition: all linear .4s;
+}
+/*End  service_text part*/
+#service_icon {
+    background: #e5eef0;
+}
+#service_icon .ab_icon img{
+    padding-top: 60px;
+    position: relative;
+}
+#service_icon .ab_icon span{
+    font-size: 60px;
+    position: absolute;
+    margin-top: 45px;
+    font-family: karla_regular;
+    color: #23282f;
+}
+#service_icon .ab_icon p{
+    font-family: karla_regular;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-left: 65px;
+    margin-top: -10px;
+    padding-bottom: 81px;
+    color: #23282f;
+}
+/*End service_icon part*/
+
+
+/*End service part*/
+
+/*-Start blog part*/
+#blog_banner{
+    background: url(../images/blog_banner.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    background-position: center;
+}
+#blog_banner h1{
+    font-size: 48px;
+    font-family:raleway_extra_bold;
+    text-transform: uppercase;
+    padding: 122px 0px 0px;
+}
+#blog_banner h4{
+    font-size: 14px;
+    font-family:raleway_regular;
+    text-transform: uppercase;
+    padding-bottom: 122px;
+} 
+/*End blog_banner part*/
+#blog_content .content_img img{
+    padding-top: 100px;
+    padding-bottom: 39px;
+}
+#blog_content .content_img h2{
+    font-size: 24px;
+    color: #23282f;
+    font-family:raleway_extra_bold;
+    text-transform: uppercase;
+}
+#blog_content .content_img p{
+    text-transform: uppercase;
+    color: #23282f;
+    font-size: 15px;
+    font-family: karla_regular;
+    padding-bottom: 44px;
+}
+#blog_content .content_img span{
+    color: #f7941d;
+    text-transform: uppercase;
+    font-family: karla_regular;
+    font-size: 15px;
+} 
+#blog_content .content_img h6{
+    color: #55595f;
+    font-size: 14px;
+    font-family: opensans_regular;
+    padding-bottom: 56px;
+}
+#blog_content .content_img .blog_button{
+    padding: 14px 29px 15px;
+    background: #29c2e1;
+    color: #fff;
+    border-radius: 35px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: karla_regular;
+}
+#blog_content .content_img .blog_button:hover{
+    background: #f7941d;
+    transition: all linear .4s;
+}
+#blog_content .blog_border{
+    height: 1px;
+    width: 828px;
+    background: #dee8ea;
+    margin-top: 75px;
+}
+#blog_content #myCarousel .pree{
+    margin-top: -220px;
+    margin-left: 28px;
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+}
+#blog_content #myCarousel .pree i{
+    line-height: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+#blog_content #myCarousel .neext{
+    margin-top: -222px;
+    background: #fff;
+    margin-left: 772px;
+    position: absolute;
+    border-radius: 50%;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    color: #000;
+}
+#blog_content #myCarousel .neext i{
+    line-height: 30px;
+    font-size: 20px;
+    margin-left: 12px;
+    text-align: center;
+}
+#blog_content .blog_video{
+    padding-top: 70px;
+}
+#blog_content .blog_ext{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: #fff;
+    font-size: 18px;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    text-align: center;
+    background: #f7941d;
+}
+#blog_content .blog_ext2{
+    margin-top: -142px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 18px;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    text-align: center;
+    background: #29c2e1;
+}
+#blog_content .blog_ext3{
+    margin-left: 100px;
+    margin-top: -42px;
+    color: #fff;
+    font-size: 18px;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    text-align: center;
+    background: #29c2e1;
+}
+#blog_content .blog_ext4{
+    margin-left: 150px;
+    margin-top: -42px;
+    color: #fff;
+    font-size: 18px;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    text-align: center;
+    background: #29c2e1;
+}
+#blog_content .blog_ext5{
+    margin-left: 200px;
+    margin-top: -42px;
+    color: #23282f;
+    font-size: 18px;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    text-align: center;
+}
+#blog_content .blog_ext6{
+    margin-left: 256px;
+    margin-top: -42px;
+    color: #fff;
+    font-size: 18px;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    text-align: center;
+    background: #29c2e1;
+}
+#blog_content .side_bar{
+    margin-top: -2056px;
+}
+#blog_content .side_bar .search{
+    padding: 10px;
+}
+#blog_content .side_bar .fa-search{
+    margin-left: -30px;
+    color: #55595f;
+}
+#blog_content .side_bar h3{
+    font-size: 20px;
+    padding: 50px 0px 25px;
+    font-family: raleway_regular;
+    font-weight: 400;
+    color: #23282f;
+}
+#blog_content .side_bar h5{
+    font-size: 13px;
+    color: #f7941d;
+    font-family: karla_regular;
+    text-transform: uppercase;
+    padding-bottom: 27px;
+}
+#blog_content .side_bar h6{
+    text-transform: uppercase;
+    font-family: karla_regular;
+    font-size: 13px;
+    color: #55595f;
+    padding-bottom: 27px;
+}
+#blog_content .side_bar .bl_icon{
+    margin-top: 95px;
+}
+#blog_content .side_bar i{
+    padding-bottom: 23px;
+    font-size: 18px;
+}
+#blog_content .side_bar .orn{
+    color: #f7941d;
+}
+#blog_content .side_bar h4{
+    font-size: 20px;
+    font-family: raleway_regular;
+    font-weight: 400;
+    color: #23282f;
+    margin-left: 15px;
+    padding-top: 60px;
+}
+#blog_content .side_bar img{
+    position: relative;
+    padding-top: 30px;
+}
+#blog_content .side_bar h2{
+    position: absolute;
+    margin-top: -57px;
+    margin-left: 88px;
+    font-size: 15px;
+    color: #23282f;
+    font-family: karla_regular;
+    padding-bottom: 14px;
+    text-transform: uppercase;
+}
+#blog_content .side_bar p{
+    position: absolute;
+    margin-top: -34px;
+    margin-left: 88px;
+    color: #55595f;
+    font-family: karla_regular;
+    font-size: 14px;
+}
+#blog_content .side_bar p span{
+    color: #f7941d;
+}
+#blog_content .side_bar .tags h3{
+    font-size: 20px;
+    font-family: raleway_regular;
+    font-weight: 400;
+    margin-left: 15px;
+    color: #23282f;
+}
+#blog_content .side_bar .tags ul li{
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+#blog_content .side_bar .tags ul li a{
+    font-size: 13px;
+    font-family: karla_regular;
+    color: #fff;
+    padding: 15px 16px 16px;
+    background: #29c2e1;
+    text-transform: uppercase;
+}
+#blog_content .side_bar .tags ul li a:hover{
+    background: #f7941d;
+}
+/*End blog_content part*/
+/*End blog part*/
+
+/*Starts contact_banner part*/
+#contact_banner{
+    background: url(../images/contact_banner.jpg);
+    text-align: center;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+#contact_banner h1{
+    font-size: 48px;
+    font-family:raleway_extra_bold;
+    text-transform: uppercase;
+    padding: 122px 0px 0px;
+}
+#contact_banner h4{
+    font-size: 14px;
+    font-family:raleway_regular;
+    text-transform: uppercase;
+    padding-bottom: 122px;
+}
+/*End contact_banner part*/
+#contact_text .contact_text_part h2{
+    font-size: 30px;
+    font-family:raleway_extra_bold;
+    text-transform: uppercase;
+    padding: 100px 0px 0px;
+    color: #23282f;
+}
+#contact_text .contact_text_part p{
+    font-size: 18px;
+    font-family: karla_regular;
+    color: #23282f;
+    text-transform: uppercase;
+    padding-bottom: 27px;
+}
+#contact_text iframe{
+    width: 1140px;
+    height: 420px;
+}
+#contact_text .contact_icon i{
+    margin-top: 74px;
+    font-size: 25px;
+    border: 2px solid #29c2e1;
+    height: 67px;
+    width: 67px;
+    line-height: 67px;
+    border-radius: 50%;
+}
+#contact_text .contact_icon h4{
+    font-size: 16px;
+    color: #23282f;
+    font-family: karla_regular;
+    text-transform: uppercase;
+    padding-top: 25px;
+}
+#contact_text .contact_icon p{
+    font-size: 16px;
+    color: #23282f;
+    font-family: karla_regular;
+    text-transform: uppercase;
+    padding-bottom: 75px;
+}
+#contact_text .contact_border{
+    width: 1140px;
+    height: 1px;
+    background: #dee8ea;
+    margin-top: 900px;
+}
+/*End contact_text part*/
+#contact_form h2{
+    font-size: 25px;
+    font-family:raleway_extra_bold;
+    color: #23282f;
+    padding: 75px 0px 30px;
+    text-transform: uppercase;
+}
+#contact_form .name{
+    padding: 10px 15px;
+    background: #e3eef0;
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#contact_form .email{
+    padding: 10px 15px;
+    background: #e3eef0;
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#contact_form .messagebox{
+    padding: 10px 15px;
+    background: #e3eef0;
+    border: none;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#contact_form .sub_button{
+    background: #29c2e1;
+    padding: 14px 43px 15px;
+    color: #fff;
+    border: none;
+    border-radius: 35px;
+    font-size: 15px;
+    font-family: karla_regular;
+}
+#contact_form .sub_button:hover{
+    background: #f69b37;
+    transition: all linear .4s;
+}
+/*End contact_text part*/
